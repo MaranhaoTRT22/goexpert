@@ -10,6 +10,7 @@ message Category {
     string description = 3;
 }
 
+// Request: cria category
 message CreateCategoryRequest {
     string name = 1;
     string description = 2;
